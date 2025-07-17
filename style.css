@@ -1,7 +1,33 @@
-body { font-family: sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-header { background: #222; color: #fff; padding: 1rem; text-align: center; }
-nav ul { list-style: none; padding: 0; display: flex; justify-content: center; }
-nav li { margin: 0 10px; }
-nav a { color: #fff; text-decoration: none; }
-main { padding: 2rem; }
-footer { background: #222; color: #fff; text-align: center; padding: 1rem; position: fixed; bottom: 0; width: 100%; }
+body {
+  background-color: #ffffff;
+  color: #2c2c2c;
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #000000;
+}
+
+a {
+  color: #005f73;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #003844;
+}
+
+.button {
+  background-color: #005f73;
+  color: #ffffff;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #003844;
+}
