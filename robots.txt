@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic‑ai
+Disallow: /
+
+User-agent: Google‑Extended
+Disallow: /
+
+User-agent: Meta‑ExternalAgent
+Disallow: /
+
+Sitemap: https://fotoxarco.neocities.org/sitemap.xml

@@ -1,30 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Fotoxarco - Inicio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+
+<div id="head-placeholder"></div>
+<script src="js/head.js"></script>
+
 <body>
-<header>
-    <h1>Asociación Fotográfica Fotoxarco</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="quienes-somos.html">Quiénes somos</a></li>
-            <li><a href="galeria.html">Galería</a></li>
-            <li><a href="noticias.html">Noticias</a></li>
-            <li><a href="socios.html">Socios</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <h2>Bienvenidos a Fotoxarco</h2>
-    <p>Somos una asociación dedicada a la fotografía, con base en la Axarquía malagueña.</p>
-</main>
-<footer>
-    <p>© 2025 Fotoxarco - https://fotoxarco.github.io</p>
-</footer>
+    <div id="nav-placeholder"></div>
+    <script src="js/nav.js"></script>
+    <!-- Carrusel de imágenes -->
+    <section class="carousel" aria-label="Galería de fotos">
+        <div class="slide active" role="group" aria-roledescription="slide" aria-label="Foto 1 de 3">
+            <img src="img/carrusel/img1.png" alt="Montañas al amanecer" />
+            <div class="autor-overlay">Pedro Rodríguez Martínez</div>
+        </div>
+        <div class="slide" role="group" aria-roledescription="slide" aria-label="Foto 2 de 3">
+            <img src="img/carrusel/img2.png" alt="Bosque en otoño" />
+            <div class="autor-overlay">Salvador Calero</div>
+        </div>
+        <div class="slide" role="group" aria-roledescription="slide" aria-label="Foto 3 de 3">
+            <img src="img/carrusel/img3.png" alt="Lago con reflejo" />
+            <div class="autor-overlay">@mejor_bajando</div>
+        </div>
+    </section>
+
+    <!-- Texto enmarcado con botón a socios -->
+    <section class="intro-box">
+        <h2>Únete a nosotros</h2>
+        <p>Descubre las ventajas de formar parte de nuestra asociación fotográfica. Comparte, aprende y crece con
+            nosotros.</p>
+        <a class="btn" href="socios.html">Hazte socio</a>
+    </section>
+
+    <!-- Noticias y eventos -->
+    <section class="noticias">
+        <div class="noticia">
+            <h3>Concurso Fotográfico</h3>
+            <img src="img/noticias/520259067_782950137630992_1281921114053263767_n.jpg"
+                alt="Cartel del concurso de fotografía">
+            <p>Se informa que desde las 00:00 del día 20 del julio a quedado cerrada las inscripciones al concurso de
+                fotografía.</p>
+            <a class="btn" href="noticias1.html">Leer más</a>
+        </div>
+        <!--<div class="noticia">
+            <h3>Salida fotográfica al Torcal</h3>
+            <p>El próximo domingo realizamos una salida fotográfica. ¡Apúntate!</p>
+            <a class="btn" href="noticia2.html">Leer más</a>
+        </div>
+        <div class="noticia">
+            <h3>Charla sobre Fotografía Nocturna</h3>
+            <p>Una oportunidad para aprender técnicas de fotografía nocturna.</p>
+            <a class="btn" href="noticia3.html">Leer más</a>
+        </div>-->
+    </section>
+
+    <div id="footer-placeholder"></div>
+    <script src="js/footer.js"></script>
+
+<div id="script-placeholder"></div>
+<script src="js/script.js"></script>
+
+    <button onclick="scrollToTop()" id="btnSubir" title="Volver arriba">↑</button>
+
+
 </body>
+
 </html>
