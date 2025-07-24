@@ -1,7 +1,7 @@
 /* ===== ESTRUCTURA GENERAL ===== */
 body {
     font-family: Arial, serif, sans-serif;
-    margin: 10px;
+    margin: 0px;
     padding: 0;
     color: #333;
     background: #fafafa;
@@ -374,9 +374,10 @@ body {
 
 /* ===== BANNER DE COOKIES ===== */
 #cookie-banner {
+
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 99%;
     background: #222;
     color: #fff;
     padding: 1em;
