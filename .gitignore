@@ -1,0 +1,20 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas ocultas de configuración
+.vscode/
+.idea/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Sistema de construcción o empaquetado (si lo usas)
+dist/
+node_modules/
+
+# Archivos personales
+*.bak
+*.swp
+

@@ -1,5 +1,6 @@
 // Mostrar banner si no se ha aceptado previamente
 window.addEventListener('load', () => {
+    
     if (!localStorage.getItem('cookies-accepted')) {
         const banner = document.createElement('div');
         banner.id = 'cookie-banner';

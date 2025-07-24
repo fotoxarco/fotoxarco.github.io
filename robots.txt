@@ -19,4 +19,4 @@ Disallow: /
 User-agent: Meta‑ExternalAgent
 Disallow: /
 
-Sitemap: https://fotoxarco.neocities.org/sitemap.xml
+Sitemap: https://fotoxarco.github.io/sitemap.xml
