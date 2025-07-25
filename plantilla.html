@@ -2,97 +2,75 @@
 <html lang="es">
 
 <head>
-    <!-- Google tag (gtag.js) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de la página | Fotoxarco</title>
+    <meta name="description" content="Descripción breve y clara del contenido específico de esta página.">
+
+    <!-- Favicon e iconos -->
+    <link rel="icon" href="img/logo/Logofoxarco.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Etiquetas Open Graph (para compartir en redes sociales) -->
+    <meta property="og:title" content="Título de la página | Fotoxarco">
+    <meta property="og:description" content="Descripción específica para redes sociales.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fotoxarco.github.io/pagina.html">
+    <meta property="og:image" content="https://fotoxarco.github.io/img/fotoxarco-portada.jpg">
+
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5JE5TH7XQ"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-Q5JE5TH7XQ');
     </script>
-    <!-- Google tag (gtag.js) -->
-    <div id="head-placeholder"></div>
 </head>
+
 <body>
-    <!-- Franja superior-->
+    <!-- Franja decorativa superior -->
     <div class="top-bar"></div>
-    <!--Barra de menu y logo-->
+
+    <!-- Cabecera con logo y navegación -->
     <header class="top-menu">
         <div class="logo">
             <a href="index.html">
-                <img src="img/logo/Logofoxarco.png" alt="Logo Fotoxarco">
+                <img src="img/logo/Logofoxarco.png" alt="Logo de Fotoxarco">
             </a>
         </div>
-        <!--Menu hamburguesa y normal-->
-        <div id="nav-placeholder"></div>
+        <nav id="nav-placeholder" aria-label="Menú principal">
+            <!-- Aquí se carga el menú con JS -->
+        </nav>
     </header>
+
+    <!-- Contenido principal -->
     <main>
-        <div class="titulo">
-            <h1>IV Concurso de Santiago y Santa Ana</h1>
-        </div>
-        <div class="fila">
-            <div class="texto">
+        <section>
+            <h1>Título principal de la página</h1>
+            <p>Contenido principal de esta sección...</p>
+        </section>
 
-                <p>
-                    Desde fotoxarco queremos invitarte a participa en nuestro concurso de Torre del Mar, puedes consultar las bases en el QR del cartel o escribiendonos al e-mail para inscribirte, es totalmente Gratis.
-                </p>
-            </div>
-            <div class="imagen">
-                <img src="img/cartelConcurso.jpeg" alt="Cartel de información sobre el concurso de fotografía">
-            </div>
-        </div>
-
-        <div class="fila">
-            <div class="texto">
-                <p>Fotoxarco está inscrita en el registro nacional de asociaciones con el número 112148 y su sede se
-                    encuentra en C/ Lope de Vega, nº 1 29700 Vélez-Málaga (Málaga).
-                </p>
-                <p>
-                    Si estás interesado/a en pertenecer a nuestra asociación no lo dudes, <strong>hazlo</strong>.Ponte
-                    en contacto con nosotros a través del siguiente e-mail:
-                    <strong>fotoxarco@gmail.com</strong>
-                </p>
-            </div>
-            <div class="imagen">
-                <img src="img/generales/img1.png" alt="Fotografía de las calles de Vélez Málaga, autor @serguedi">
-            </div>
-        </div>
-        <!-- Para añadir más contenido
-        <div class="fila">
-            <div class="texto">
-                <h2>Título Sección 3</h2>
-                <p>Volvemos al texto a la izquierda y la imagen a la derecha.</p>
-            </div>
-            <div class="imagen">
-                <img src="https://via.placeholder.com/400x250.png?text=Imagen+3" alt="Imagen 3">
-            </div>
-        </div>
-
-        <div class="fila">
-            <div class="texto">
-                <h2>Título Sección 4</h2>
-                <p>Y de nuevo el texto a la derecha, imagen a la izquierda.</p>
-            </div>
-            <div class="imagen">
-                <img src="https://via.placeholder.com/400x250.png?text=Imagen+4" alt="Imagen 4">
-            </div>
-        </div>
-        -->
-        <!-- Añade más contenido aquí -->
+        <!-- Puedes añadir más <section> o <article> según sea necesario -->
     </main>
-    <!-- Pie de página legal -->
+
+    <!-- Pie de página -->
     <footer class="footer">
         <div id="footer-placeholder"></div>
     </footer>
 
+    <!-- Botón "Volver arriba" accesible -->
+    <button onclick="scrollToTop()" id="btnSubir" title="Volver arriba" aria-label="Volver arriba">
+        <span aria-hidden="true">↑</span>
+    </button>
+
+    <!-- Scripts -->
     <script src="js/cookies_banner.js"></script>
     <script src="js/scroll-top.js"></script>
     <script src="js/proteger-imagenes.js"></script>
     <script src="js/carrusel.js"></script>
-    <!-- Carga los htmlBasic -->
     <script src="js/layout.js"></script>
-
 </body>
 
 </html>
