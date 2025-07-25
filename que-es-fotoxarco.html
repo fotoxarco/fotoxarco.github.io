@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<div id="head-placeholder"></div>
-<script src="js/head.js"></script>
+<head>
+    <div id="head-placeholder"></div>
+</head>
 
 <body>
-    <div id="nav-placeholder"></div>
-    <script src="js/nav.js"></script>
+    <!-- Franja superior-->
+    <div class="top-bar"></div>
+    <!--Barra de menu y logo-->
+    <header class="top-menu">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo/Logofoxarco.png" alt="Logo Fotoxarco">
+            </a>
+        </div>
+        <!--Menu hamburguesa y normal-->
+        <div id="nav-placeholder"></div>
+    </header>
     <main>
         <div class="titulo">
             <h1>Qué es Fotoxarco</h1>
@@ -14,7 +25,8 @@
         <div class="fila">
             <div class="texto">
                 <p>
-                    Fotoxarco es una asociación cultural, sin ánimo de lucro, dedicada a la promoción y difusión de la
+                    Fotoxarco es una asociación cultural, sin ánimo de lucro, dedicada a la promoción y difusión de
+                    la
                     fotografía en la comarca de la Axarquía, Málaga. Fundada por fotógrafos apasionados, nuestra
                     asociación
                     es un espacio abierto para profesionales y aficionados que desean aprender, compartir y crecer
@@ -33,7 +45,8 @@
                     encuentra en C/ Lope de Vega, nº 1 29700 Vélez-Málaga (Málaga).
                 </p>
                 <p>
-                    Si estás interesado/a en pertenecer a nuestra asociación no lo dudes, <strong>hazlo</strong>.Ponte
+                    Si estás interesado/a en pertenecer a nuestra asociación no lo dudes,
+                    <strong>hazlo</strong>.Ponte
                     en contacto con nosotros a través del siguiente e-mail:
                     <strong>fotoxarco@gmail.com</strong>
                 </p>
@@ -65,13 +78,17 @@
 
         <!-- Añade más contenido aquí -->
     </main>
-    <div id="footer-placeholder"></div>
-    <script src="js/footer.js"></script>
-
+    <!-- Pie de página legal -->
+    <footer class="footer">
+        <div id="footer-placeholder"></div>
+    </footer>
 
     <button onclick="scrollToTop()" id="btnSubir" title="Volver arriba">↑</button>
-    <div id="script-placeholder"></div>
-    <script src="js/script.js"></script>
+    <script src="js/cookies_banner.js"></script>
+    <script src="js/scroll-top.js"></script>
+    <script src="js/proteger-imagenes.js"></script>
+    <!-- Carga los htmlBasic -->
+    <script src="js/layout.js"></script>
 </body>
 
 </html>

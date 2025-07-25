@@ -2,15 +2,7 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Fotoxarco - Asociación Fotográfica</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Fotoxarco es la asociación fotográfica de la Axarquía, Málaga. Únete y participa en exposiciones, cursos y eventos fotográficos.">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="icon" href="img/logo/Logofoxarco.png" type="image/x-icon">
-    <meta name="google-site-verification" content="U_4qyPLWbo8DjI7MH-pncfZoMxkfOdsS7suTtJsbWdc" />
+    <div id="head-placeholder"></div>
 </head>
 
 <body>
@@ -23,37 +15,8 @@
                 <img src="img/logo/Logofoxarco.png" alt="Logo Fotoxarco">
             </a>
         </div>
-        <!--Botón de hamburguesa-->
-        <button id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
-            <svg width="30" height="30" viewBox="0 0 100 80" fill="#3a6351" xmlns="http://www.w3.org/2000/svg">
-                <rect width="100" height="10"></rect>
-                <rect y="30" width="100" height="10"></rect>
-                <rect y="60" width="100" height="10"></rect>
-            </svg>
-        </button>
-        <!--Menu y submenu oculto-->
-        <nav class="menu" id="main-menu">
-            <ul class="nav-links">
-                <li><a href="index.html">Inicio</a></li>
-                <li>
-                    <a href="#">La Asociación ▾</a>
-                    <ul class="submenu">
-                        <li><a href="que-es-fotoxarco.html">Qué es Fotoxarco</a></li>
-                        <li><a href="socios.html">Alta de Socios</a></li>
-                        <li><a href="junta-directiva.html">Junta Directiva</a></li>
-                        <!--<li><a href="contacto.html">Contacto</a></li>-->
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Galería ▾</a>
-                    <ul class="submenu">
-                        <li><a href="galeria.html">Galería Socios</a></li>
-                        <!--<li><a href="eventos.html">Eventos</a></li>
-                        <li><a href="exposiciones.html">Exposiciones</a></li>-->
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <!--Menu hamburguesa y normal-->
+        <div id="nav-placeholder"></div>
     </header>
     <!-- Carrusel de imágenes -->
     <section class="carousel" aria-label="Galería de fotos">
@@ -103,29 +66,17 @@
 
     <!-- Pie de página legal -->
     <footer class="footer">
-        <p>&copy; 2025 Fotoxarco. Todos los derechos reservados.</p>
-        <p><a href="aviso-legal.html">Aviso Legal</a> | <a href="politica-privacidad.html">Política de Privacidad</a> |
-            <a href="cookies.html">Política de Cookies</a>
-        </p>
-        <p>Fotoxarco - Asociación Inscrita en el Registro Nacional de Asociaciones con el número 112148.</p>
-        <p>Registrada el <strong>6 de junio de 2021 </strong>con la sede en Vélez Málaga.</p>
-        <div class="social-icons">
-            <a href="https://www.facebook.com/fotoxarco" target="_blank" aria-label="Facebook">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://www.instagram.com/fotoxarco" target="_blank" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </div>
+        <div id="footer-placeholder"></div>
     </footer>
 
     <button onclick="scrollToTop()" id="btnSubir" title="Volver arriba">↑</button>
 
     <script src="js/cookies_banner.js"></script>
     <script src="js/scroll-top.js"></script>
-    <script src="js/menu.js"></script>
     <script src="js/proteger-imagenes.js"></script>
     <script src="js/carrusel.js"></script>
+    <!-- Carga los htmlBasic -->
+    <script src="js/layout.js"></script>
 
 </body>
 

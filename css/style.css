@@ -442,7 +442,13 @@ body {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         max-width: 800px;
+    }
 
+    .img-obras{
+        width: 100%;
+        height: auto;
+        max-width: 90vw;
+        margin: 0 auto;
     }
 }
 
@@ -574,6 +580,13 @@ body {
         grid-template-columns: 1fr;
         gap: 20px;
         max-width: 300px;
+    }
+
+    .img-obras{
+        width: 100%;
+        height: auto;
+        max-width: 90vw;
+        margin: 0 auto;
     }
 
 }
