@@ -2,31 +2,41 @@
 <html lang="es">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio - Fotoxarco - Asociación Fotográfica</title>
     <meta name="description"
         content="Fotoxarco es la asociación fotográfica de la Axarquía, Málaga. Descubre nuestras galerías, actividades, exposiciones y cómo formar parte de nuestra comunidad de amantes de la fotografía.">
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <!-- Favicon e iconos -->
+    <link rel="icon" href="img/logo/Logofoxarco.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="icon" href="img/logo/Logofoxarco.png" type="image/x-icon">
+
+    <!-- Etiquetas Open Graph (para compartir en redes sociales) -->
+    <meta property="og:title" content="Inicio - Fotoxarco - Asociación Fotográfica">
+    <meta property="og:description"
+        content="Fotoxarco es la asociación fotográfica de la Axarquía, Málaga. Descubre nuestras galerías, actividades, exposiciones y cómo formar parte de nuestra comunidad de amantes de la fotografía.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fotoxarco.github.io/index.html">
+    <meta property="og:image" content="https://fotoxarco.github.io/img/logo/LogoRRSS.png">
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5JE5TH7XQ"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-Q5JE5TH7XQ');
     </script>
-    <!-- Google tag (gtag.js) -->
+
 </head>
 
 <body>
-    <!-- Franja superior-->
+    <!-- Franja decorativa superior -->
     <div class="top-bar"></div>
-    <!--Barra de menu y logo-->
+
+    <!-- Cabecera con logo y navegación -->
     <header class="top-menu">
         <div class="logo">
             <a href="index.html">
@@ -34,8 +44,10 @@
             </a>
         </div>
         <!--Menu hamburguesa y normal-->
-        <nav id="nav-placeholder"></nav>
+        <nav id="nav-placeholder" arial-label="Menú Principal"></nav>
     </header>
+
+    <!-- Contenido principal -->
     <main>
 
         <!-- Carrusel de imágenes -->
@@ -85,18 +97,20 @@
         </div>-->
         </section>
     </main>
+
     <!-- Pie de página legal -->
     <footer class="footer">
         <div id="footer-placeholder"></div>
     </footer>
 
-    <button onclick="scrollToTop()" id="btnSubir" title="Volver arriba"
-    aria-label="Volver arriba"><span aria-hidden="true">↑</span></button>
+    <button onclick="scrollToTop()" id="btnSubir" title="Volver arriba" aria-label="Volver arriba"><span
+            aria-hidden="true">↑</span></button>
 
     <script src="js/cookies_banner.js"></script>
     <script src="js/scroll-top.js"></script>
     <script src="js/proteger-imagenes.js"></script>
     <script src="js/carrusel.js"></script>
+
     <!-- Carga los htmlBasic -->
     <script src="js/layout.js"></script>
 
