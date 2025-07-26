@@ -1,9 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
+    // 🔍 Detecta cuántos niveles de subcarpetas hay desde la raíz del sitio
+    const depth = window.location.pathname.split("/").filter(p => p).length - 1;
+    const basePath = "../".repeat(depth);
+
     const includes = [
-        { id: 'head-placeholder', url: 'htmlBasic/head.html' },
-        { id: 'nav-placeholder', url: 'htmlBasic/nav.html' },
-        { id: 'footer-placeholder', url: 'htmlBasic/footer.html' },
-        { id: 'obras-placeholder', url: 'htmlBasic/obras.html' }
+        { id: 'head-placeholder', url: basePath + 'htmlBasic/head.html' },
+        { id: 'nav-placeholder', url: basePath + 'htmlBasic/nav.html' },
+        { id: 'footer-placeholder', url: basePath + 'htmlBasic/footer.html' },
+        { id: 'obras-placeholder', url: basePath + 'htmlBasic/obras.html' },
     ];
 
     includes.forEach(part => {
@@ -38,7 +42,6 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
 
-        // Activar submenús en móviles
         const navItems = document.querySelectorAll('.nav-links > li > a');
         navItems.forEach(link => {
             const submenu = link.nextElementSibling;
