@@ -274,6 +274,8 @@ body {
 }
 
 .texto {
+    display: flex;
+    flex-direction: column;
     border: 1px solid #ccc;
     background-color: rgb(236, 234, 234);
     border-radius: 25px;
@@ -459,7 +461,7 @@ body {
 .img1{
     width: 100%;
     height: auto;
-    max-width: 400px;
+    max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
