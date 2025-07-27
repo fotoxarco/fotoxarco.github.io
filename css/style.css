@@ -7,6 +7,11 @@ body {
     background: #fafafa;
 }
 
+.cuerpo {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .top-bar {
     background-color: #787878;
     padding: 0.5em 1em;
@@ -190,7 +195,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1em;
     padding: 1em;
-    
+
 }
 
 .noticia {
@@ -282,7 +287,7 @@ body {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
     flex: 1;
     padding: 20px;
-    margin:20px;
+    margin: 20px;
     font-size: 1.2em;
     line-height: 1.5;
     text-align: center;
@@ -452,13 +457,13 @@ body {
     background-color: #333;
 }
 
-.lista{
+.lista {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.img1{
+.img1 {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -469,6 +474,11 @@ body {
 
 /* ===== RESPONSIVE PARA MÓVILES ===== */
 @media (max-width: 1050px) {
+
+    .cuerpo {
+        width: 100%;
+        margin: 0 auto;
+    }
 
     .box {
         grid-template-columns: repeat(2, 1fr);
@@ -485,6 +495,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .cuerpo {
+        width: 100%;
+        margin: 0 auto;
+    }
 
     .autor-overlay {
         font-size: 0.5em;
