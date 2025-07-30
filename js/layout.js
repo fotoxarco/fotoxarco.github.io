@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     // 🔍 Detecta cuántos niveles de subcarpetas hay desde la raíz del sitio
-    const depth = window.location.pathname.split("/").filter(p => p).length - 1;
+    const depth = Math.max(0, window.location.pathname.split("/").filter(p => p).length - 1);
     const basePath = "../".repeat(depth);
+
 
     const includes = [
         { id: 'head-placeholder', url: basePath + 'htmlBasic/head.html' },
