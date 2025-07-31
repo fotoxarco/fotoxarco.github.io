@@ -8,7 +8,7 @@ body {
 }
 
 .cuerpo {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -313,7 +313,7 @@ body {
 
 .imagen img {
     width: 100%;
-    max-width: 400px;
+    max-width: 800px;
     height: auto;
     display: block;
     margin: 0 auto;
