@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { id: 'head-placeholder', url: basePath + 'htmlBasic/head.html' },
         { id: 'nav-placeholder', url: basePath + 'htmlBasic/nav.html' },
         { id: 'footer-placeholder', url: basePath + 'htmlBasic/footer.html' },
-        { id: 'obras-placeholder', url: basePath + '../htmlBasic/obras.html' },
+        { id: 'obras-placeholder', url: basePath + 'htmlBasic/obras.html' },
     ];
 
     includes.forEach(part => {
