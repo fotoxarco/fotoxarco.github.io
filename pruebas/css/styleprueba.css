@@ -1,0 +1,29 @@
+.galeria-concurso {
+    padding: 2rem;
+    background: #f7f7f7;
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.grid-galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.grid-galeria figure {
+    margin: 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.grid-galeria img:hover {
+    transform: scale(1.02);
+}

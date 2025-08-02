@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Carrusel con autores</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styleprueba.css" />
 </head>
+
 <body>
-    <section class="carousel" aria-label="Galería de fotos">
-        <div class="slide active" role="group" aria-roledescription="slide" aria-label="Foto 1 de 3">
-            <img src="img/carrusel/img1.png" alt="Montañas al amanecer" />
-            <div class="autor-overlay">Pedro Rodríguez Martínez</div>
-        </div>
-        <div class="slide" role="group" aria-roledescription="slide" aria-label="Foto 2 de 3">
-            <img src="img/carrusel/img2.png" alt="Bosque en otoño" />
-            <div class="autor-overlay">Salvador Calero</div>
-        </div>
-        <div class="slide" role="group" aria-roledescription="slide" aria-label="Foto 3 de 3">
-            <img src="img/carrusel/img3.png" alt="Lago con reflejo" />
-            <div class="autor-overlay">@mejor_bajando</div>
+    <section class="galeria-concurso">
+        <h2>Galería del Concurso 2025</h2>
+        <div class="grid-galeria">
+            <figure>
+                <img src="img/carrusel/img1.png" alt="Título o descripción de la imagen">
+                <figcaption>“Luz de Otoño” – Ana Ruiz</figcaption>
+            </figure>
+            <figure>
+                <img src="img/carrusel/img2.png" alt="Título o descripción de la imagen">
+                <figcaption>“Reflejos del Amanecer” – Juan Pérez</figcaption>
+            </figure>
+            <!-- Más imágenes... -->
         </div>
     </section>
 
+
     <script src="js/carrusel.js"></script>
 </body>
+
 </html>
