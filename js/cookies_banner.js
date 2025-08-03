@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
         banner.id = 'cookie-banner';
         banner.innerHTML = `
             <div class="cookie-content">
-                <p>Utilizamos cookies propias y de terceros para mejorar su experiencia y recopilar datos estadísticos. Al continuar navegando acepta nuestra <a href='cookies.html'>Política de Cookies</a>.</p>
+                <p>Utilizamos cookies propias y de terceros para mejorar su experiencia y recopilar datos estadísticos. Al continuar navegando acepta nuestra <a href='../normativas/cookies.html'>Política de Cookies</a>.</p>
                 <button id="accept-cookies">Aceptar</button>
             </div>
     `;
