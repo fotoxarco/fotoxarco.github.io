@@ -36,7 +36,7 @@
             </a>
         </div>
         <!--Menú hamburguesa y normal-->
-        <div id="nav-placeholder"></div>
+        <div id="nav-placeholder" aria-label="Menú principal"></div>
     </header>
 
     <main class="cuerpo">
@@ -125,7 +125,10 @@
     </footer>
 
 
-    <button onclick="scrollToTop()" id="btnSubir" title="Volver arriba">↑</button>
+    <!-- Botón "Volver arriba" accesible -->
+    <button onclick="scrollToTop()" id="btnSubir" title="Volver arriba" aria-label="Volver arriba">
+        <span aria-hidden="true">↑</span>
+    </button>
     <script src="../js/cookies_banner.js"></script>
     <script src="../js/scroll-top.js"></script>
     <script src="../js/proteger-imagenes.js"></script>
