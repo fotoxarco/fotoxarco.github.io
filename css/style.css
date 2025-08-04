@@ -50,6 +50,10 @@ body {
     position: relative;
 }
 
+.listado{
+list-style: none;
+}
+
 .menu a,
 .nav-links a {
     color: #787878;
