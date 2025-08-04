@@ -50,8 +50,8 @@ body {
     position: relative;
 }
 
-.listado{
-list-style: none;
+.listado {
+    list-style: none;
 }
 
 .menu a,
@@ -313,7 +313,7 @@ list-style: none;
 .imagen {
     flex: 1;
     padding: 20px;
-    gap:10px;
+    gap: 10px;
 }
 
 .imagen img {
@@ -480,6 +480,26 @@ list-style: none;
     margin-bottom: 20px;
 }
 
+/* ===== PARA CONTENEDORES DE MAPAS O VÍDEOS ===== */
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    margin: 2em auto;
+}
+
+.iframe-container iframe {
+    width: 100%;
+    max-width: 600px;
+    /* Máximo ancho */
+    height: auto;
+    aspect-ratio: 16 / 9;
+    max-height: 450px;
+    /* Máximo alto */
+    border: 0;
+    border-radius: 8px;
+}
+
 /* ===== RESPONSIVE PARA MÓVILES ===== */
 @media (max-width: 1050px) {
 
@@ -606,7 +626,7 @@ list-style: none;
     .texto,
     .imagen {
         padding: 10px;
-        border:25px;
+        border: 25px;
     }
 
     .imagen img {
