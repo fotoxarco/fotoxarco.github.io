@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Fotoxarco - IV Concurso - Asociación Fotográfica</title>
+    <meta name="description"
+        content="Explora las fotografías de los concursantes de la IV edición del concurso de fotografía de la feria de Torre del Mar Santiago y Santa Ana.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-galeria.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-ganadoras.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="../img/logo/Logofoxarco.png" type="image/x-icon">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GRX07CNT2N"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-GRX07CNT2N');
+    </script>
+    <link rel="canonical" href="https://fotoxarco.github.io/galeria/galeria-IV-concurso-torre-del-mar.html">
+
+</head>
+
+<body>
+    <!-- Franja superior -->
+    <div class="top-bar"></div>
+    <!-- Barra de menú y logo -->
+    <header class="top-menu">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../img/logo/Logofoxarco.png" alt="Logo Fotoxarco">
+            </a>
+        </div>
+        <!-- Menú hamburguesa y normal -->
+        <div id="nav-placeholder"></div>
+    </header>
+
+    <main class="cuerpo">
+        <h1 class="titulo2">IV Concurso Fotografía Feria Santiago y Santa Ana 2025</h1>
+        <div class="carrusel" id="carrusel">
+            <button class="prev" onclick="cambiarFoto(-1)">&#10094;</button>
+            <img id="carrusel-img" src="" alt="Carrusel">
+            <div class="autor" id="carrusel-autor"></div>
+            <button class="next" onclick="cambiarFoto(1)">&#10095;</button>
+        </div>
+    </main>
+
+    <section class="cuerpo">
+        <h2 class="titulo2">📷 Fotografías Ganadoras</h2>
+        <div class="galeria-ganadores">
+
+            <div class="foto-ganadora">
+                <img src="/img/galeria/IV-Concurso/recorte/ganadores/1º PREMIO JOSE MELLADO ALVAREZ.webp"
+                    alt="Foto ganadora 1">
+                <p class="autor">Primer Premio</p>
+                <p class="autor">Autor: JOSE MELLADO ALVAREZ</p>
+            </div>
+
+            <div class="foto-ganadora">
+                <img src="/img/galeria/IV-Concurso/recorte/ganadores/2º PREMIO DANIEL AGUILAR TRIANO.webp"
+                    alt="Foto ganadora 2">
+                <p class="autor">Segundo Premio</p>
+                <p class="autor">Autor: DANIEL AGUILAR TRIANO</p>
+            </div>
+
+            <div class="foto-ganadora">
+                <img src="/img/galeria/IV-Concurso/recorte/ganadores/3º PREMIO ANTONIO BLAS FERNANDEZ.webp"
+                    alt="Foto ganadora 3">
+                <p class="autor">Tercer Premio</p>
+                <p class="autor">Autor: ANTONIO BLAS FERNANDEZ</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="cuerpo">
+        <h2 class="titulo2">📷 Fotografía ganadora categoría Infantil</h2>
+        <div class="galeria-ganadores">
+            <div class="foto-ganadora">
+                <img src="/img/galeria/IV-Concurso/H.A.03.jpg" alt="Foto ganadora infantil primer premio">
+                <p class="autor">Autor: H. A.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cuerpo">
+        <h2 class="titulo2">Fotografías de los participantes</h2>
+        <div class="galeria" id="galeria"></div>
+
+        <div id="modal" class="modal">
+            <span class="cerrar" onclick="cerrarModal()">&times;</span>
+            <button class="modal-prev" onclick="cambiarModal(-1)">&#10094;</button>
+            <img class="modal-contenido" id="modal-img">
+            <div id="modal-autor" class="modal-autor"></div>
+            <button class="modal-next" onclick="cambiarModal(1)">&#10095;</button>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div id="footer-placeholder"></div>
+    </footer>
+
+    <button onclick="scrollToTop()" id="btnSubir" title="Volver arriba">↑</button>
+
+    <script src="../js/cookies_banner.js"></script>
+    <script src="../js/scroll-top.js"></script>
+    <script src="../js/proteger-imagenes.js"></script>
+    <script src="../js/IV-concurso.js"></script>
+    <!-- Carga los htmlBasic -->
+    <script src="../js/layout.js"></script>
+</body>
+
+</html>
