@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Peñón Del Cuervo - Fotoxarco - Asociación Fotográfica</title>
+    <meta name="description"
+        content="Explora las fotografías de los concursantes de la IV edición del concurso de fotografía de la feria de Torre del Mar Santiago y Santa Ana.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-galeria.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-ganadoras.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="../img/logo/Logofoxarco.png" type="image/x-icon">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GRX07CNT2N"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-GRX07CNT2N');
+    </script>
+    <link rel="canonical" href="https://fotoxarco.github.io/galeria/galeria-IV-concurso-torre-del-mar.html">
+
+</head>
+
+<body>
+    <!-- Franja superior -->
+    <div class="top-bar"></div>
+    <!-- Barra de menú y logo -->
+    <header class="top-menu">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../img/logo/Logofoxarco.png" alt="Logo Fotoxarco">
+            </a>
+        </div>
+        <!-- Menú hamburguesa y normal -->
+        <div id="nav-placeholder"></div>
+    </header>
+
+    <main class="cuerpo">
+        <h1 class="titulo2">Peñón del Cuervo</h1>
+        <section>
+            <article class="fila1">
+                <p>El pasado viernes 08/08/2025 algunos miembros de Fotoxarco junto con otro compañero fotógrafo,
+                    acudimos al Peñón del Cuervo para fotografiar el atardecer y la luna llena junto al peñón.</p>
+                <p>Pasamos un buen rato, con alguna anécdota con la app de posicionamiento de la luna, que nos hizo
+                    perder alguna toma, pero pudimos adaptarnos y sacar alguna fotografía interesante.</p>
+                <p>Lo bueno es que después de esta salida, vendrán más, si estás interesado/a en venirte con nosotros,
+                    <a href="mailto:secretariafotoxarco@gmail.com">escríbenos</a> o mantente al día en la web.
+                </p>
+            </article>
+        </section>
+        <div class="carrusel" id="carrusel">
+            <button class="prev" onclick="cambiarFoto(-1)">&#10094;</button>
+            <img id="carrusel-img" src="" alt="Carrusel">
+            <div class="autor" id="carrusel-autor"></div>
+            <button class="next" onclick="cambiarFoto(1)">&#10095;</button>
+        </div>
+    </main>
+
+    <section class="cuerpo">
+        <h2 class="titulo2">Galería</h2>
+        <div class="galeria" id="galeria"></div>
+
+        <div id="modal" class="modal">
+            <span class="cerrar" onclick="cerrarModal()">&times;</span>
+            <button class="modal-prev" onclick="cambiarModal(-1)">&#10094;</button>
+            <img class="modal-contenido" id="modal-img">
+            <div id="modal-autor" class="modal-autor"></div>
+            <button class="modal-next" onclick="cambiarModal(1)">&#10095;</button>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div id="footer-placeholder"></div>
+    </footer>
+
+    <button onclick="scrollToTop()" id="btnSubir" title="Volver arriba">↑</button>
+
+    <script src="../js/cookies_banner.js"></script>
+    <script src="../js/scroll-top.js"></script>
+    <script src="../js/proteger-imagenes.js"></script>
+    <script src="../js/galeria-peñon-del-cuervo.js"></script>
+    <!-- Carga los htmlBasic -->
+    <script src="../js/layout.js"></script>
+</body>
+
+</html>
