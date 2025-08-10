@@ -3,6 +3,7 @@ const imagenes = [
     'Salvador_Calero02.webp',
     'Salvador_Calero03.webp',
     'Salvador_Calero04.webp',
+    'Salvador_Calero05.webp',
     'Juanma_Camacho01.webp',
     'Juanma_Camacho02.webp',
     'Juanma_Camacho03.webp',
