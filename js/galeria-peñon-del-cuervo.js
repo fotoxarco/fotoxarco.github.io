@@ -12,7 +12,9 @@ const imagenes = [
     'Juanma_Camacho06.webp',
     'Juanma_Camacho07.webp',
     'Juanma_Camacho08.webp',
-    'Juanma_Camacho09.webp'
+    'Juanma_Camacho09.webp',
+    'Dionisio01.webp',
+    'Dionisio02.webp'
 
 ];
 
