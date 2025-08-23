@@ -110,3 +110,43 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+/* ===== RESPONSIVE PARA MÓVILES ===== */
+@media (max-width: 768px) {
+
+    .carrusel {
+        height:300px;
+        padding: 10px 0;
+}
+
+    .carrusel .autor {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .carrusel .prev,
+    .carrusel .next {
+        font-size: 24px;
+        padding: 5px;
+    }
+
+    .miniatura {
+        height: 80px;
+    }
+
+    .modal-contenido {
+        max-width: 100%;
+        max-height: 70%;
+    }
+
+    .modal-autor {
+        font-size: 18px;
+    }
+
+    .cerrar,
+    .modal-prev,
+    .modal-next {
+        font-size: 30px;
+    }
+
+}

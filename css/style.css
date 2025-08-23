@@ -33,6 +33,7 @@ body {
 
 /* ===== MENÚ Y SUBMENÚ ===== */
 .menu {
+    list-style: none;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -46,12 +47,23 @@ body {
     padding: 0;
 }
 
+.nav-links2 {
+    list-style: none;
+}
+
 .nav-links li {
     position: relative;
 }
 
 .listado {
     list-style: none;
+}
+
+.nav-links a {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 12px;;
+    line-height: 1.5;
 }
 
 .menu a,
@@ -549,10 +561,12 @@ body {
     }
 
     .menu {
+        list-style: none;
         margin-top: 10px;
     }
 
     #main-menu {
+        list-style: none;
         display: none;
         flex-direction: row;
         margin-top: 0;
