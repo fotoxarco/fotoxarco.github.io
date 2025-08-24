@@ -1,10 +1,25 @@
+/* ===== PALETA DE COLORES ===== */
+    :root{
+    --color-franja-sup-inf: #787878;
+    --color-texto-menu: #787878;
+    --color-fondo: #fafafa;
+    --color-texto: #333;
+    --color-acento: #f39c12;
+    --color-boton: #000;
+    --color-boton-hover: #555;
+    --color-fondo-menu: #fff;
+    --color-boton-texto-hover: #fff;
+        }
+
+
+
 /* ===== ESTRUCTURA GENERAL ===== */
 body {
     font-family: Arial, serif, sans-serif;
     margin: 0px;
     padding: 0;
-    color: #333;
-    background: #fafafa;
+    color: var(--color-texto);
+    background: var(--color-fondo);
 }
 
 .cuerpo {
@@ -13,7 +28,7 @@ body {
 }
 
 .top-bar {
-    background-color: #787878;
+    background-color: var(--color-franja-sup-inf);
     padding: 0.5em 1em;
     height: 25px;
 }
@@ -22,7 +37,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #fff;
+    background-color: var(--color-fondo-menu);
     height: 90px;
     padding: 10px 20px;
 }
@@ -33,7 +48,6 @@ body {
 
 /* ===== MENÚ Y SUBMENÚ ===== */
 .menu {
-    list-style: none;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -68,7 +82,7 @@ body {
 
 .menu a,
 .nav-links a {
-    color: #787878;
+    color: var(--color-texto-menu);
     text-decoration: none;
     font-weight: bold;
     padding: 10px 12px;
