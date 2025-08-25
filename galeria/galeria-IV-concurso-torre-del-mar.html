@@ -48,58 +48,54 @@
             <div class="autor" id="carrusel-autor"></div>
             <button class="next" onclick="cambiarFoto(1)">&#10095;</button>
         </div>
+
+        <section>
+            <h2 class="titulo2">📷 Fotografías Ganadoras</h2>
+            <div class="galeria-ganadores">
+
+                <div class="foto-ganadora">
+                    <img src="/img/galeria/IV-Concurso/ganadoras/1º PREMIO JOSE M.A.webp" alt="Foto ganadora 1">
+                    <p class="autor">Primer Premio</p>
+                    <p class="autor">Autor: JOSE M.A.</p>
+                </div>
+
+                <div class="foto-ganadora">
+                    <img src="/img/galeria/IV-Concurso/ganadoras/2º PREMIO DANIEL A.T.webp" alt="Foto ganadora 2">
+                    <p class="autor">Segundo Premio</p>
+                    <p class="autor">Autor: DANIEL A.T.</p>
+                </div>
+
+                <div class="foto-ganadora">
+                    <img src="/img/galeria/IV-Concurso/ganadoras/3º PREMIO ANTONIO B.F.webp" alt="Foto ganadora 3">
+                    <p class="autor">Tercer Premio</p>
+                    <p class="autor">Autor: ANTONIO B.F.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="titulo2">📷 Fotografía ganadora categoría Infantil</h2>
+            <div class="galeria-ganadores">
+                <div class="foto-ganadora">
+                    <img src="/img/galeria/IV-Concurso/H.A.03.jpg" alt="Foto ganadora infantil primer premio">
+                    <p class="autor">Autor: H. A.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="titulo2">Fotografías de los participantes</h2>
+            <div class="galeria" id="galeria"></div>
+
+            <div id="modal" class="modal">
+                <span class="cerrar" onclick="cerrarModal()">&times;</span>
+                <button class="modal-prev" onclick="cambiarModal(-1)">&#10094;</button>
+                <img class="modal-contenido" id="modal-img">
+                <div id="modal-autor" class="modal-autor"></div>
+                <button class="modal-next" onclick="cambiarModal(1)">&#10095;</button>
+            </div>
+        </section>
     </main>
-
-    <section class="cuerpo">
-        <h2 class="titulo2">📷 Fotografías Ganadoras</h2>
-        <div class="galeria-ganadores">
-
-            <div class="foto-ganadora">
-                <img src="/img/galeria/IV-Concurso/ganadoras/1º PREMIO JOSE M.A.webp"
-                    alt="Foto ganadora 1">
-                <p class="autor">Primer Premio</p>
-                <p class="autor">Autor: JOSE M.A.</p>
-            </div>
-
-            <div class="foto-ganadora">
-                <img src="/img/galeria/IV-Concurso/ganadoras/2º PREMIO DANIEL A.T.webp"
-                    alt="Foto ganadora 2">
-                <p class="autor">Segundo Premio</p>
-                <p class="autor">Autor: DANIEL A.T.</p>
-            </div>
-
-            <div class="foto-ganadora">
-                <img src="/img/galeria/IV-Concurso/ganadoras/3º PREMIO ANTONIO B.F.webp"
-                    alt="Foto ganadora 3">
-                <p class="autor">Tercer Premio</p>
-                <p class="autor">Autor: ANTONIO B.F.</p>
-            </div>
-
-        </div>
-    </section>
-    <section class="cuerpo">
-        <h2 class="titulo2">📷 Fotografía ganadora categoría Infantil</h2>
-        <div class="galeria-ganadores">
-            <div class="foto-ganadora">
-                <img src="/img/galeria/IV-Concurso/H.A.03.jpg" alt="Foto ganadora infantil primer premio">
-                <p class="autor">Autor: H. A.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="cuerpo">
-        <h2 class="titulo2">Fotografías de los participantes</h2>
-        <div class="galeria" id="galeria"></div>
-
-        <div id="modal" class="modal">
-            <span class="cerrar" onclick="cerrarModal()">&times;</span>
-            <button class="modal-prev" onclick="cambiarModal(-1)">&#10094;</button>
-            <img class="modal-contenido" id="modal-img">
-            <div id="modal-autor" class="modal-autor"></div>
-            <button class="modal-next" onclick="cambiarModal(1)">&#10095;</button>
-        </div>
-    </section>
-
 
 
     <footer class="footer">

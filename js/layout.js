@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const depth = Math.max(0, window.location.pathname.split("/").filter(p => p).length - 1);
     const basePath = "../".repeat(depth);
 
-
+    //Define los archivos a incluir usando un Array
     const includes = [
         { id: 'head-placeholder', url: basePath + 'htmlBasic/head.html' },
         { id: 'nav-placeholder', url: basePath + 'htmlBasic/nav.html' },
@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { id: 'obras-placeholder', url: basePath + 'htmlBasic/obras.html' },
     ];
 
+    //Carga dinámica de cada HTML
     includes.forEach(part => {
         fetch(part.url)
             .then(res => res.text())
@@ -32,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
     });
 
+    //Función para activar el manú hamburguesa
     function activarMenuHamburguesa() {
         const toggle = document.getElementById('menu-toggle');
         const menu = document.getElementById('main-menu');
@@ -43,6 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
 
+        //Manejo del submenú en móvil
         const navItems = document.querySelectorAll('.nav-links > li > a');
         navItems.forEach(link => {
             const submenu = link.nextElementSibling;
